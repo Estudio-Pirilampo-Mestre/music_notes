@@ -24,7 +24,7 @@ import 'pitch.dart';
 /// * [KeySignature].
 /// * [Key].
 @immutable
-final class Note extends Scalable<Note>
+class Note extends Scalable<Note>
     with RespellableScalable<Note>
     implements Comparable<Note> {
   /// The base note that defines this [Note].
